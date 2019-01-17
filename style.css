@@ -1,10 +1,10 @@
 body {
-	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-	font-size: 21px;
-	line-height: 1.5;
-	background-color: #ffffff;
-	color: #9b9b9b;
-	margin: 70px auto 70px auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 21px;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #9b9b9b;
+  margin: 80px auto 80px auto;
   max-width: 1400px;
   font-weight: 300;
   padding-left: 75px;
@@ -16,8 +16,8 @@ body::selection {
 }
 
 h5 {
-	font-size: 30px;
-	font-weight: 500;
+  font-size: 30px;
+  font-weight: 500;
   color: #333333;
 }
 
@@ -28,14 +28,14 @@ h6 {
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
   color: #333333;
 }
 
 a:hover {
   background-color: #FFFF3C;
   color: #000000;
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .header {
