@@ -1,0 +1,98 @@
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 21px;
+	line-height: 1.5;
+	background-color: #85c9d0;
+	color: #ffffff;
+	margin: 65px auto 65px auto;
+  max-width: 1400px;
+  font-weight: 500;
+}
+
+body::selection {
+  background-color: #c9d085;
+}
+
+h5 {
+	font-size: 30px;
+	font-weight: 900;
+  color: #ffffff;
+}
+
+h6 {
+  font-size: 27px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+  color: #ffffff;
+}
+
+.companies {
+  font-weight: 600;
+}
+
+a:hover {
+  background-color: #c9d085;
+  color: #000000;
+	text-decoration: none;
+}
+
+.header {
+  padding-bottom: 85px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.text {
+  width: 75%;
+  margin-top: 35px;
+}
+
+/* ipad pro landscape */
+@media (max-width: 1366px) {
+
+}
+
+/* ipad pro landscape */
+@media (max-width: 1366px) {
+
+}
+
+/* ipad landscape, pro portrait */
+@media (max-width: 1024px) {
+
+}
+
+/* ipad portrait */
+@media (max-width: 768px) {
+
+}
+
+/* iphone 6+, 6S+ */
+@media (max-width: 414px) {
+
+}
+
+/* iphone 6, 7, 6S */
+@media (max-width: 374px) {
+
+}
+
+/* galaxy s5 */
+@media (max-width: 360px) {
+
+}
+
+/* iphone 4, 5 */
+@media (max-width: 320px) {
+
+}
