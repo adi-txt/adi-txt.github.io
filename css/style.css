@@ -11,7 +11,7 @@ body {
   padding-right: 75px;
 }
 
-body::selection {
+::selection {
   background-color: #FFFF3C;
 }
 
