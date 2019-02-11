@@ -8,7 +8,7 @@ shortly:
 building software @ kepler group
 
 previously:
-copywriter @ vaynermedia,
+copywriter & creative @ vaynermedia,
 studied marketing & communication @ the university of southern california
 
 occasionally:
