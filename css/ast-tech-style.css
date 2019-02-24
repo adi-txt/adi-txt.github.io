@@ -1,0 +1,48 @@
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 36px;
+  font-weight: 100;
+  float:  left;
+}
+
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 12px;
+  font-weight: 100;
+  color: #999999;
+  float:  right;
+}
+
+.full-background {
+  background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/2964133/original_4068f0a2d8c5a2dd21c75d8803cb9d2f.gif);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.header {
+  color: #999999;
+  margin:  50px 50px 75px;
+}
+
+.sc {
+  top: 95%;
+  left: 3%;
+  position: absolute;
+  width: 20px;
+}
+
+.caveat {
+  top: 100px;
+  left: 50px;
+  position: absolute;
+}
+
+a {
+  color: #999999;
+  text-decoration: none;
+}
