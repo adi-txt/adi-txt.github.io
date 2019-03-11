@@ -4,7 +4,7 @@ body {
   line-height: 1.5;
   background-color: #ffffff;
   color: #808080;
-  margin: 70px auto 70px auto;
+  margin: 75px auto 75px auto;
   max-width: 1400px;
   font-weight: 300;
   padding-left: 75px;
@@ -39,7 +39,7 @@ a:hover {
 }
 
 .header {
-  padding-bottom: 70px;
+  padding-bottom: 75px;
 }
 
 .left {
