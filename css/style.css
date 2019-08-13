@@ -51,37 +51,16 @@ a:hover {
   margin-top: 25px;
 }
 
-/* .text:hover {
-  background-color: yellow;
-  h6 {
-    background-color: #ffffff;
-  }
-} */
-
 @media (max-width: 414px) {
   body {
-    font-size: 18px;
+    font-size: 15px;
     padding-left: 75px;
     padding-right: 20px;
   }
   h5 {
-    font-size: 27px;
+    font-size: 24px;
   }
   h6 {
-    font-size: 24px;
+    font-size: 21px;
   }
 }
-
-/* @media (max-width: 414px) {
-  body {
-    font-size: 18px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-  h5 {
-    font-size: 27px;
-  }
-  h6 {
-    font-size: 24px;
-  }
-} */
