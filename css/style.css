@@ -1,5 +1,19 @@
+@font-face{
+  font-family: 'Untitled Sans';
+  src: url(../assets/bundle/UntitledSansWeb-Regular.woff2) format("woff2"), url(../assets/bundle/UntitledSansWeb-Regular.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Untitled Sans';
+  src: url(../assets/bundle/UntitledSansWeb-Regular.woff2) format("woff2"), url(../assets/bundle/UntitledSansWeb-Regular.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  font-family: 'Untitled Sans', sans-serif;
   font-size: 21px;
   line-height: 1.5;
   background-color: #ffffff;
@@ -9,6 +23,7 @@ body {
   font-weight: 300;
   padding-left: 75px;
   padding-right: 75px;
+  letter-spacing: -0.02em;
 }
 
 ::selection {
