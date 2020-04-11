@@ -16,8 +16,8 @@ body {
   font-family: 'Untitled Sans', sans-serif;
   font-size: 21px;
   line-height: 1.5;
-  background-color: #ffffff;
-  color: #808080;
+  color: #969696;
+  background-color: #212120;
   margin: 70px auto 70px auto;
   max-width: 1400px;
   font-weight: 300;
@@ -33,23 +33,80 @@ body {
 h5 {
   font-size: 30px;
   font-weight: 500;
-  color: #333333;
+  color: #FFFFFF;
 }
 
 h6 {
   font-size: 27px;
   font-weight: 500;
-  color: #333333;
+  color: #FFFFFF;
 }
 
 a {
   text-decoration: none;
-  color: #333333;
+  color: #ffffff;
+}
+
+.text a.kepler:hover {
+  color: #FF9E00;
+}
+
+.text a.penn:hover {
+  color: #0081FF;
+}
+
+.text a.wharton:hover {
+  color: #A82805;
+}
+
+.text a.usc:hover {
+  color: #A87A05;
+}
+
+.text a.vayner:hover {
+  color: #05A892;
+}
+
+.text a.photo:hover {
+  color: #A80561;
+}
+
+.text a.arena:hover {
+  color: #61A805;
+}
+
+.text a.github:hover {
+  color: #A82905;
+}
+
+.text a.linkedin:hover {
+  color: #0518A8;
+}
+
+.text a.instagram:hover {
+  background: #F09433;
+  background: -moz-linear-gradient(45deg, #F09433 0%, #E6683C 25%, #DC2743 50%, #CC2366 75%, #BC1888 100%);
+  background: -webkit-linear-gradient(45deg, #F09433 0%,#E6683C 25%,#DC2743 50%,#CC2366 75%,#BC1888 100%);
+  background: linear-gradient(45deg, #F09433 0%,#E6683C 25%,#DC2743 50%,#CC2366 75%,#BC1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F09433', endColorstr='#BC1888', GradientType=1);
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.text a.pocket:hover {
+  color: #A8050D;
+}
+
+.text a.spotify:hover {
+  color: #0DA805;
+}
+
+.text a.email:hover {
+  color: #05A898;
 }
 
 a:hover {
-  background-color: #FFFF3C;
-  color: #000000;
   text-decoration: none;
 }
 
