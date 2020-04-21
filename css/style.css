@@ -83,6 +83,10 @@ a {
   color: #0518A8;
 }
 
+.text a.soundcloud:hover {
+  color: #FF7700;
+}
+
 .text a.instagram:hover {
   background: #F09433;
   background: -moz-linear-gradient(45deg, #F09433 0%, #E6683C 25%, #DC2743 50%, #CC2366 75%, #BC1888 100%);
