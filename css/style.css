@@ -71,6 +71,14 @@ a {
   color: #A80561;
 }
 
+.text a.society6:hover {
+  color: #0561a8;
+}
+
+.text a.soundcloud:hover {
+  color: #FF7700;
+}
+
 .text a.arena:hover {
   color: #61A805;
 }
@@ -81,10 +89,6 @@ a {
 
 .text a.linkedin:hover {
   color: #0518A8;
-}
-
-.text a.soundcloud:hover {
-  color: #FF7700;
 }
 
 .text a.discogs:hover {
