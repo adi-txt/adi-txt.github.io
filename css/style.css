@@ -138,14 +138,17 @@ a:hover {
 
 @media (max-width: 414px) {
   body {
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 60px;
     padding-right: 12px;
   }
   h5 {
-    font-size: 32px;
+    font-size: 28px;
   }
   h6 {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .text {
+    width: 82%;
   }
 }
