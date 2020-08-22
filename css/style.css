@@ -114,6 +114,10 @@ a {
   color: #0DA805;
 }
 
+.text a.vsco:hover {
+  color: #AE995A;
+}
+
 .text a.email:hover {
   color: #05A898;
 }
