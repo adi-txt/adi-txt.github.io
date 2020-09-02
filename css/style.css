@@ -83,6 +83,10 @@ a {
   color: #61A805;
 }
 
+.text a.twitter:hover {
+  color: #1DA1F2;
+}
+
 .text a.github:hover {
   color: #A82905;
 }
