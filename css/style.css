@@ -21,9 +21,15 @@ body {
   margin: 70px auto 70px auto;
   max-width: 1400px;
   font-weight: 300;
-  padding-left: 75px;
-  padding-right: 75px;
+  padding-left: 72px;
+  padding-right: 72px;
   letter-spacing: -0.02em;
+}
+
+img {
+  width: 28px;
+  height: 28px;
+  margin: 4px;
 }
 
 ::selection {
@@ -135,8 +141,8 @@ a:hover {
 }
 
 .header {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
 .left {
@@ -144,8 +150,13 @@ a:hover {
 }
 
 .text {
-  width: 75%;
-  margin-top: 25px;
+  width: 72%;
+  margin-top: 32px;
+}
+
+.logos {
+  width: 72%;
+  margin-top: 64px;
 }
 
 @media (max-width: 414px) {
@@ -162,5 +173,15 @@ a:hover {
   }
   .text {
     width: 82%;
+  }
+
+  .logos {
+    width: 82%;
+    margin-top: 32px;
+  }
+  img {
+    width: 16px;
+    height: 16px;
+    margin: 2px;
   }
 }
