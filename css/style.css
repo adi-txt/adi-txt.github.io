@@ -27,7 +27,7 @@ body {
 }
 
 ::selection {
-  background-color: #FFFF3C;
+  background-color: rgba(163, 180, 214, 0.25);
 }
 
 h5 {
