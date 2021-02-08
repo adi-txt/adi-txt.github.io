@@ -12,8 +12,22 @@
   font-style: normal;
 }
 
+@font-face{
+  font-family: 'ABCNormal Normal';
+  src: url(../assets/bundle/ABCNormal-Normal.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'ABCNormal Neutral';
+  src: url(../assets/bundle/ABCNormal-Neutral.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Untitled Sans', sans-serif;
+  font-family: 'ABCNormal Normal', sans-serif;
   font-size: 24px;
   line-height: 1.5;
   color: #808080;
@@ -37,12 +51,14 @@ img {
 }
 
 h5 {
+  font-family: 'ABCNormal Neutral', sans-serif;
   font-size: 32px;
   font-weight: 500;
   color: #FFFFFF;
 }
 
 h6 {
+  font-family: 'ABCNormal Neutral', sans-serif;
   font-size: 28px;
   font-weight: 500;
   color: #FFFFFF;
