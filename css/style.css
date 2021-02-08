@@ -1,18 +1,4 @@
 @font-face{
-  font-family: 'Untitled Sans';
-  src: url(../assets/bundle/UntitledSansWeb-Regular.woff2) format("woff2"), url(../assets/bundle/UntitledSansWeb-Regular.woff) format("woff");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: 'Untitled Sans';
-  src: url(../assets/bundle/UntitledSansWeb-Regular.woff2) format("woff2"), url(../assets/bundle/UntitledSansWeb-Regular.woff) format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face{
   font-family: 'ABCNormal Normal';
   src: url(../assets/bundle/ABCNormal-Normal.woff) format("woff");
   font-weight: 500;
@@ -27,14 +13,13 @@
 }
 
 body {
-  font-family: 'ABCNormal Normal', sans-serif;
+  font-family: system-ui, 'ABCNormal Normal', sans-serif;
   font-size: 24px;
   line-height: 1.5;
   color: #808080;
   background-color: #212120;
   margin: 70px auto 70px auto;
   max-width: 1400px;
-  font-weight: 300;
   padding-left: 72px;
   padding-right: 72px;
   letter-spacing: -0.02em;
@@ -51,14 +36,14 @@ img {
 }
 
 h5 {
-  font-family: 'ABCNormal Neutral', sans-serif;
+  font-family: system-ui, 'ABCNormal Neutral', sans-serif;
   font-size: 32px;
   font-weight: 500;
   color: #FFFFFF;
 }
 
 h6 {
-  font-family: 'ABCNormal Neutral', sans-serif;
+  font-family: system-ui, 'ABCNormal Neutral', sans-serif;
   font-size: 28px;
   font-weight: 500;
   color: #FFFFFF;
