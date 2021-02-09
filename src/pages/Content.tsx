@@ -1,5 +1,9 @@
 import React from 'react'
 
+import Link from '../components/Link'
+import Header from '../components/Header'
+import Subheader from '../components/Subheader'
+
 import MailIcon from '../icons/MailIcon'
 import ArenaIcon from '../icons/ArenaIcon'
 import GithubIcon from '../icons/GithubIcon'
@@ -7,53 +11,67 @@ import InstagramIcon from '../icons/InstagramIcon'
 
 const Content = () => (
   <>
-    <section className="header">
-      <h5 className="left">adi manjunath</h5>
-    </section>
-    <section className="text">
-      <h6 className="section-header">presently:</h6>
+    <Header className="header" title="adi manjunath" />
+    <div className="text">
+      <Subheader title="presently:" />
       ad tech software dev &amp; design @&nbsp;
-      <a className="kepler" href="https://www.keplergrp.com/">
-        kepler
-      </a>
-    </section>
-    <section className="text">
-      <h6 className="section-header">previously:</h6>
+      <Link
+        title="kepler"
+        className="kepler"
+        href="https://www.keplergrp.com"
+      />
+    </div>
+    <div className="text">
+      <Subheader title="previously:" />
       computer science @ the&nbsp;
-      <a className="penn" href="https://www.upenn.edu/">
-        university of pennsylvania
-      </a>
+      <Link
+        className="penn"
+        href="https://www.upenn.edu"
+        title="university of pennsylvania"
+      />
       ,<br />
       marketing &amp; communication @ the&nbsp;
-      <a className="usc" href="https://www.usc.edu/">
-        university of southern california
-      </a>
+      <Link
+        className="usc"
+        href="https://www.usc.edu"
+        title="university of southern california"
+      />
       , <br />
       research on gaze cueing in ads @ the&nbsp;
-      <a className="wharton" href="https://neuro.wharton.upenn.edu/">
-        wharton neuroscience initiative
-      </a>
+      <Link
+        className="wharton"
+        href="https://neuro.wharton.upenn.edu"
+        title="wharton neuroscience initiative"
+      />
       ,<br />
       ad campaigns &amp; copy @&nbsp;
-      <a className="vayner" href="https://vaynermedia.com/">
-        vaynermedia
-      </a>
-    </section>
-    <section className="text">
-      <h6>occasionally:</h6>
-      <a className="soundcloud" href="https://soundcloud.com/astdotwav">
-        make &amp; mix music
-      </a>
+      <Link
+        className="vayner"
+        title="vaynermedia"
+        href="https://vaynermedia.com"
+      />
+    </div>
+    <div className="text">
+      <Subheader title="occasionally:" />
+      <Link
+        className="soundcloud"
+        title="make &amp; mix music"
+        href="https://soundcloud.com/astdotwav"
+      />
       ,<br />
-      <a className="photo" href="https://adi.photos/">
-        photograph places &amp; people
-      </a>
+      <Link
+        className="photo"
+        title="photograph places &amp; people"
+        href="https://adi.photos/"
+      />
       ,<br />
-      <a className="society6" href="https://society6.com/adidotpng">
-        experiment with generative art
-      </a>
-    </section>
-    <section className="logos">
+      <Link
+        className="society6"
+        title="experiment with generative art"
+        href="https://society6.com/adidotpng"
+      />
+    </div>
+    <div className="logos">
       <a href="https://www.are.na/adi">
         <ArenaIcon className="arena icon" />
       </a>
@@ -66,7 +84,7 @@ const Content = () => (
       <a href="mailto:work@adithya.co">
         <MailIcon className="email icon" />
       </a>
-    </section>
+    </div>
   </>
 )
 
