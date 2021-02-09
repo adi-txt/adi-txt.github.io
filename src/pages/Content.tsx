@@ -12,7 +12,7 @@ import InstagramIcon from '../icons/InstagramIcon'
 const Content = () => (
   <>
     <Header className="header" title="adi manjunath" />
-    <section className="text">
+    <div className="text">
       <Subheader title="presently:" />
       ad tech software dev &amp; design @&nbsp;
       <Link
@@ -20,8 +20,8 @@ const Content = () => (
         className="kepler"
         href="https://www.keplergrp.com"
       />
-    </section>
-    <section className="text">
+    </div>
+    <div className="text">
       <Subheader title="previously:" />
       computer science @ the&nbsp;
       <Link
@@ -50,8 +50,8 @@ const Content = () => (
         title="vaynermedia"
         href="https://vaynermedia.com"
       />
-    </section>
-    <section className="text">
+    </div>
+    <div className="text">
       <Subheader title="occasionally:" />
       <Link
         className="soundcloud"
@@ -70,8 +70,8 @@ const Content = () => (
         title="experiment with generative art"
         href="https://society6.com/adidotpng"
       />
-    </section>
-    <section className="logos">
+    </div>
+    <div className="logos">
       <a href="https://www.are.na/adi">
         <ArenaIcon className="arena icon" />
       </a>
@@ -84,7 +84,7 @@ const Content = () => (
       <a href="mailto:work@adithya.co">
         <MailIcon className="email icon" />
       </a>
-    </section>
+    </div>
   </>
 )
 
