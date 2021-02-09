@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "author": "Adi Manjunath",
   "license": "UNLICENSED",
+  "homepage": "https://adidottxt.github.io/adidottxt.github.io",
   "scripts": {
     "start": "nps start",
     "build": "nps build",
