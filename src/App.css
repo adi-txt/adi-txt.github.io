@@ -74,7 +74,7 @@ input, textarea, select {
 }
 
 body {
-  font-family: system-ui, 'ABCNormal Normal', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'ABCNormal Normal', sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
   color: #808080;
@@ -90,14 +90,14 @@ body {
 }
 
 h5 {
-  font-family: system-ui, 'ABCNormal Neutral', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'ABCNormal Neutral', sans-serif;
   font-size: 2rem;
   font-weight: 500;
   color: #fff;
 }
 
 h6 {
-  font-family: system-ui, 'ABCNormal Neutral', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'ABCNormal Neutral', sans-serif;
   font-size: 1.75rem;
   font-weight: 500;
   color: #fff;
@@ -162,11 +162,7 @@ a:hover {
 }
 
 .header {
-  padding: 4.5rem 0;
-}
-
-.left {
-  float: left;
+  padding: 4.5rem 0 1.5rem 0;
 }
 
 .text {
