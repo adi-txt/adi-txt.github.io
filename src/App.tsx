@@ -1,17 +1,9 @@
-import React from 'react'
-import { hot } from 'react-hot-loader/root'
-import { Switch, BrowserRouter as Router, Route } from 'react-router-dom'
+import React from "react"
+import Content from "./pages/Content"
+import './App.css'
 
-import Content from 'pages/Content'
+const App = () => {
+  return <Content />
+}
 
-const App = () => (
-  <Router>
-    <Switch>
-      <Route path="/">
-        <Content />
-      </Route>
-    </Switch>
-  </Router>
-)
-
-export default hot(App)
+export default App

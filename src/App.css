@@ -61,14 +61,14 @@ input, textarea, select {
 
 @font-face{
   font-family: 'ABCNormal Normal';
-  src: url(../assets/bundle/ABCNormal-Normal.woff) format("woff");
+  src: url(./assets/bundle/ABCNormal-Normal.woff) format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face{
   font-family: 'ABCNormal Neutral';
-  src: url(../assets/bundle/ABCNormal-Neutral.woff) format("woff");
+  src: url(./assets/bundle/ABCNormal-Neutral.woff) format("woff");
   font-weight: 500;
   font-style: normal;
 }
