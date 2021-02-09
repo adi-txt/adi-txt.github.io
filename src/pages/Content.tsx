@@ -1,13 +1,13 @@
 import React from 'react'
 
-import Link from '../components/Link'
-import Header from '../components/Header'
-import Subheader from '../components/Subheader'
+import Link from 'components/Link'
+import Header from 'components/Header'
+import Subheader from 'components/Subheader'
 
-import MailIcon from '../icons/MailIcon'
-import ArenaIcon from '../icons/ArenaIcon'
-import GithubIcon from '../icons/GithubIcon'
-import InstagramIcon from '../icons/InstagramIcon'
+import MailIcon from 'icons/MailIcon'
+import ArenaIcon from 'icons/ArenaIcon'
+import GithubIcon from 'icons/GithubIcon'
+import InstagramIcon from 'icons/InstagramIcon'
 
 const Content = () => (
   <>

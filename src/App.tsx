@@ -1,6 +1,6 @@
 import React from "react"
-import Content from "./pages/Content"
-import './App.css'
+import Content from "pages/Content"
+import 'App.css'
 
 const App = () => {
   return <Content />
