@@ -22,13 +22,9 @@ module.exports = {
         script: 'nps "lint --fix"',
       },
     },
-    test: {
-      description: 'Run tests',
-      script: 'jest',
-    },
     predeploy: {
       description: 'Run all predeploy steps',
-      script: npsUtils.concurrent.nps('typecheck', 'lint', 'test'),
+      script: npsUtils.concurrent.nps('lint'),
     },
     clean: {
       description: 'Clean previously build assets.',
