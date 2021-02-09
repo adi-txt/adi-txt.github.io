@@ -183,10 +183,10 @@ a:hover {
   margin-right: 0.5em;
 }
 
-@media (max-width: 25rem) {
+@media (max-width: 26rem) {
   body {
     font-size: 1em;
-    padding-left: 10em;
+    padding-left: 3.5em;
     padding-right: 0.75em;
   }
   h5 {
@@ -201,5 +201,8 @@ a:hover {
   .logos {
     width: 84%;
     margin-top: 2rem;
+  }
+  .icon {
+    width: 1em;
   }
 }
