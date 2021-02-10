@@ -14,37 +14,37 @@ const Content = () => (
     <Header className="header" title="adi manjunath" />
     <div className="text">
       <Subheader title="presently:" />
-      ad tech software dev &amp; design @&nbsp;
+      ad tech software dev &amp; design at&nbsp;
       <Link
         title="kepler"
         className="kepler"
-        href="https://www.keplergrp.com"
+        href="https://kyu.com/members/kepler-group"
       />
     </div>
     <div className="text">
       <Subheader title="previously:" />
-      computer science @ the&nbsp;
+      computer science at the&nbsp;
       <Link
         className="penn"
         href="https://www.upenn.edu"
         title="university of pennsylvania"
       />
       ,<br />
-      marketing &amp; communication @ the&nbsp;
+      marketing &amp; communication at the&nbsp;
       <Link
         className="usc"
         href="https://www.usc.edu"
         title="university of southern california"
       />
       , <br />
-      research on gaze cueing in ads @ the&nbsp;
+      research on gaze cueing in ads at the&nbsp;
       <Link
         className="wharton"
         href="https://neuro.wharton.upenn.edu"
         title="wharton neuroscience initiative"
       />
       ,<br />
-      ad campaigns &amp; copy @&nbsp;
+      ad campaigns &amp; copy at&nbsp;
       <Link
         className="vayner"
         title="vaynermedia"

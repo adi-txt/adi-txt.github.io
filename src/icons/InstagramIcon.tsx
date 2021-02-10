@@ -11,8 +11,8 @@ const InstagramIcon = (props: React.SVGProps<SVGSVGElement>) => (
     strokeLinecap="round"
     strokeLinejoin="round"
     fill="none"
-    color="#fff"
-    stroke="#fff"
+    color="#eee"
+    stroke="#eee"
     {...props}
   >
     <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>

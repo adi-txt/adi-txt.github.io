@@ -60,27 +60,25 @@ input, textarea, select {
 }
 
 @font-face{
-  font-family: 'ABCNormal Normal';
-  src: url(./assets/bundle/ABCNormal-Normal.woff) format("woff");
-  font-weight: 500;
-  font-style: normal;
+  font-family: 'Inter-Regular';
+  src: url(./assets/bundle/Inter-Regular.woff) format("woff");
+  font-weight: 400;
 }
 
 @font-face{
-  font-family: 'ABCNormal Neutral';
-  src: url(./assets/bundle/ABCNormal-Neutral.woff) format("woff");
-  font-weight: 500;
-  font-style: normal;
+  font-family: 'Inter-SemiBold';
+  src: url(./assets/bundle/Inter-SemiBold.woff) format("woff");
+  font-weight: 600;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'ABCNormal Normal', sans-serif;
-  font-size: 1.5rem;
+  font-family: 'Inter-Regular', sans-serif;
+  font-size: 1.75rem;
   line-height: 1.5;
-  color: #808080;
-  background-color: #212120;
-  margin: 4rem auto;
-  max-width: 87.5rem;
+  color: #eee;
+  background-color: #111;
+  margin: 1rem 8rem;
+  max-width: 100rem;
   padding: 0 4.5rem;
   letter-spacing: -0.02em;
 }
@@ -90,54 +88,45 @@ body {
 }
 
 h5 {
-  font-family: -apple-system, BlinkMacSystemFont, 'ABCNormal Neutral', sans-serif;
-  font-size: 2rem;
-  font-weight: 500;
-  color: #fff;
+  font-size: 2.75rem;
 }
 
 h6 {
-  font-family: -apple-system, BlinkMacSystemFont, 'ABCNormal Neutral', sans-serif;
-  font-size: 1.75rem;
-  font-weight: 500;
-  color: #fff;
+  font-size: 2.25rem;
 }
 
 a {
+  font-family: 'Inter-SemiBold', sans-serif;
   text-decoration: none;
-  color: #c0c0c0;
+  color: #eee;
+  font-weight: 600;
 }
 
-.text a.kepler:hover {
-  color: #1ccdf7;
+a .arena:hover {
+  border: 0;
 }
 
-.text a.penn:hover {
-  color: #0081ff;
+.underline a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #eee;
 }
 
-.text a.wharton:hover {
-  color: #a82805;
+.header {
+  padding: 4.5rem 0 1.5rem 0;
 }
 
-.text a.usc:hover {
-  color: #a87a05;
+.text {
+  width: 72%;
+  margin-top: 2rem;
 }
 
-.text a.vayner:hover {
-  color: #05a892;
+.logos {
+  width: 72%;
+  margin: 3rem 0 6rem 0;
 }
 
-.text a.photo:hover {
-  color: #a80561;
-}
-
-.text a.society6:hover {
-  color: #0561a8;
-}
-
-.text a.soundcloud:hover {
-  color: #ff7700;
+.icon {
+  margin-right: 0.5em;
 }
 
 .arena:hover {
@@ -157,46 +146,23 @@ a {
   stroke: #05a898;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
-.header {
-  padding: 4.5rem 0 1.5rem 0;
-}
-
-.text {
-  width: 72%;
-  margin-top: 2rem;
-}
-
-.logos {
-  width: 72%;
-  margin-top: 4rem;
-}
-
-.icon {
-  margin-right: 0.5em;
-}
-
 @media (max-width: 26rem) {
   body {
     font-size: 1em;
-    padding-left: 3.5em;
-    padding-right: 0.75em;
+    margin: 0 0 0 0.125em;
   }
   h5 {
-    font-size: 1.75em;
+    font-size: 1.5em;
   }
   h6 {
     font-size: 1.25em;
   }
   .text {
-    width: 84%;
+    width: 100%;
   }
   .logos {
     width: 84%;
-    margin-top: 2rem;
+    margin: 2rem 0 4rem 0;
   }
   .icon {
     width: 1em;
