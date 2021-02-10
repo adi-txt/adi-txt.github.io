@@ -7,7 +7,11 @@ interface Props {
 }
 
 const Link = ({ href, className, title }: Props) => {
-  return <a className={className} href={href}>{title}</a>
+  return (
+    <span className="underline">
+      <a className={className} href={href}>{title}</a>
+    </span>
+  )
 }
 
 export default Link
