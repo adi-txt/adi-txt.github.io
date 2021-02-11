@@ -1,12 +1,15 @@
 import React from 'react'
 
-interface Props {
-  title: string
-  className?: string
-}
+import LogoIcon from 'icons/LogoIcon'
+import Navigation from 'components/Navigation'
 
-const Header = ({ className, title }: Props) => {
-  return <div className={className}><h5>{title}</h5></div>
+const Header = () => {
+  return (
+    <div className="header">
+      <LogoIcon />
+      <Navigation />
+    </div>
+  )
 }
 
 export default Header
