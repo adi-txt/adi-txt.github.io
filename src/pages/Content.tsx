@@ -5,7 +5,6 @@ import Header from 'components/Header'
 import Subheader from 'components/Subheader'
 
 import Mail from 'icons/Mail'
-import Vsco from 'icons/Vsco'
 import Arena from 'icons/Arena'
 import Github from 'icons/Github'
 import Instagram from 'icons/Instagram'
@@ -15,7 +14,7 @@ const Content = () => (
     <Header className="header" title="adi manjunath" />
     <div className="text">
       <Subheader title="presently:" />
-      ad tech software dev &amp; design at&nbsp;
+      software dev &amp; design at&nbsp;
       <Link
         title="kepler"
         className="kepler"
@@ -78,9 +77,6 @@ const Content = () => (
       </a>
       <a href="https://www.instagram.com/adi.png">
         <Instagram className="instagram icon" />
-      </a>
-      <a href="https://vsco.co/adidotpng/gallery">
-        <Vsco className="vsco icon" />
       </a>
       <a href="https://www.github.com/adidottxt">
         <Github className="github icon" />
