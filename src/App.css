@@ -73,7 +73,7 @@ input, textarea, select {
 
 body {
   font-family: 'Inter-Regular', sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.5625rem;
   line-height: 1.5;
   color: #eee;
   background-color: #111;
@@ -88,11 +88,11 @@ body {
 }
 
 h5 {
-  font-size: 2.75rem;
+  font-size: 2.625rem;
 }
 
 h6 {
-  font-size: 2.25rem;
+  font-size: 2rem;
 }
 
 a {
@@ -112,7 +112,7 @@ a .arena:hover {
 }
 
 .header {
-  padding: 4.5rem 0 1.5rem 0;
+  padding: 5rem 0 1.5rem 0;
 }
 
 .text {
@@ -134,17 +134,22 @@ a .arena:hover {
   fill: #00a06d;
 }
 
-.github:hover {
-  stroke: #0366d6;
-}
-
 .instagram:hover {
   stroke: #dd2a7b;
+}
+
+.vsco:hover {
+  stroke: #ae995a;
+}
+
+.github:hover {
+  stroke: #0366d6;
 }
 
 .email:hover {
   stroke: #05a898;
 }
+
 
 @media (max-width: 26rem) {
   body {

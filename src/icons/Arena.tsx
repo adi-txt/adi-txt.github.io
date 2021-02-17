@@ -1,11 +1,11 @@
 import React from 'react'
 
-const ArenaIcon = (props: React.SVGProps<SVGSVGElement>) => (
+const Arena = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     role="img"
     xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
+    width="32"
+    height="32"
     viewBox="0 0 150.38 88.986"
     strokeWidth="2"
     strokeLinecap="round"
@@ -19,4 +19,4 @@ const ArenaIcon = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 )
 
-export default ArenaIcon
+export default Arena

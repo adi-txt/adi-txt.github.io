@@ -1,11 +1,11 @@
 import React from 'react'
 
-const GithubIcon = (props: React.SVGProps<SVGSVGElement>) => (
+const Github = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     role="img"
     xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
+    width="32"
+    height="32"
     viewBox="0 0 24 24"
     aria-labelledby="aboutIconTitle"
     strokeWidth="2"
@@ -20,4 +20,4 @@ const GithubIcon = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 )
 
-export default GithubIcon
+export default Github
