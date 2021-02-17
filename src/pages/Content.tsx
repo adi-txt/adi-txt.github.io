@@ -4,10 +4,11 @@ import Link from 'components/Link'
 import Header from 'components/Header'
 import Subheader from 'components/Subheader'
 
-import MailIcon from 'icons/MailIcon'
-import ArenaIcon from 'icons/ArenaIcon'
-import GithubIcon from 'icons/GithubIcon'
-import InstagramIcon from 'icons/InstagramIcon'
+import Mail from 'icons/Mail'
+import Vsco from 'icons/Vsco'
+import Arena from 'icons/Arena'
+import Github from 'icons/Github'
+import Instagram from 'icons/Instagram'
 
 const Content = () => (
   <>
@@ -73,16 +74,19 @@ const Content = () => (
     </div>
     <div className="logos">
       <a href="https://www.are.na/adi">
-        <ArenaIcon className="arena icon" />
+        <Arena className="arena icon" />
       </a>
       <a href="https://www.instagram.com/adi.png">
-        <InstagramIcon className="instagram icon" />
+        <Instagram className="instagram icon" />
+      </a>
+      <a href="https://vsco.co/adidotpng/gallery">
+        <Vsco className="vsco icon" />
       </a>
       <a href="https://www.github.com/adidottxt">
-        <GithubIcon className="github icon" />
+        <Github className="github icon" />
       </a>
       <a href="mailto:work@adithya.co">
-        <MailIcon className="email icon" />
+        <Mail className="email icon" />
       </a>
     </div>
   </>

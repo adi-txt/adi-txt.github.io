@@ -1,11 +1,11 @@
 import React from 'react'
 
-const MailIcon = (props: React.SVGProps<SVGSVGElement>) => (
+const Mail = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     role="img"
     xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
+    width="32"
+    height="32"
     viewBox="0 0 24 24"
     aria-labelledby="aboutIconTitle"
     strokeWidth="2"
@@ -21,4 +21,4 @@ const MailIcon = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 )
 
-export default MailIcon
+export default Mail
