@@ -1,0 +1,18 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-no-invalid-hex": true,
+    "length-zero-no-unit": true,
+    "shorthand-property-no-redundant-values": true,
+    "unit-allowed-list": ["em", "rem", "deg", "%", "s"],
+    "declaration-no-important": true,
+    "color-hex-case": "lower",
+    "number-no-trailing-zeros": true,
+    "custom-property-empty-line-before": "never",
+    "unit-case": "lower",
+    "no-eol-whitespace": true,
+    "no-empty-first-line": true,
+    "string-quotes": "double",
+    "comment-whitespace-inside": "always"
+  }
+}
