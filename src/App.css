@@ -1,53 +1,149 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
+
 body {
-  line-height: 1;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 1.5625rem;
+  line-height: 1.5;
+  color: #eee;
+  background-color: #222;
+  margin: 1rem auto;
+  max-width: 100rem;
+  padding: 0 4.5rem;
+  letter-spacing: -0.02em;
 }
-ol, ul {
+
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-img, iframe {
+img,
+iframe {
   vertical-align: bottom;
   max-width: 100%;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   font: inherit;
 }
 
@@ -59,27 +155,16 @@ input, textarea, select {
   text-rendering: optimizeLegibility;
 }
 
-@font-face{
-  font-family: 'Inter-Regular';
+@font-face {
+  font-family: "Inter-Regular";
   src: url(./assets/bundle/Inter-Regular.woff) format("woff");
   font-weight: 400;
 }
 
-@font-face{
-  font-family: 'Inter-SemiBold';
+@font-face {
+  font-family: "Inter-SemiBold";
   src: url(./assets/bundle/Inter-SemiBold.woff) format("woff");
   font-weight: 600;
-}
-
-body {
-  font-family: 'Inter-Regular', sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  color: #eee;
-  background-color: #111;
-  margin: 1rem 0;
-  padding: 0 4.5rem;
-  letter-spacing: -0.02em;
 }
 
 ::selection {
@@ -95,27 +180,23 @@ h6 {
 }
 
 a {
-  font-family: 'Inter-SemiBold', sans-serif;
+  font-family: "Inter-SemiBold", sans-serif;
   text-decoration: none;
   color: #eee;
   font-weight: 600;
 }
 
-a .arena:hover {
-  border: 0;
-}
-
 .underline a:hover {
   text-decoration: none;
-  border-bottom: 2px solid #eee;
+  background-color: black;
 }
 
 .container {
-  margin: 8rem 14rem;
+  margin: 4rem 0 0 8rem;
 }
 
 .header {
-  margin: 3rem;
+  margin: 6rem 0 0 8rem;
 }
 
 .home-logo {
@@ -127,6 +208,7 @@ a .arena:hover {
 .home-logo:hover {
   fill: #eee;
   stroke: #eee;
+  padding: 5rem 0 1.5rem;
 }
 
 .text {
@@ -135,7 +217,7 @@ a .arena:hover {
 
 .logos {
   width: 72%;
-  margin: 3rem 0 6rem 0;
+  margin: 3rem 0 6rem;
 }
 
 .icon {
@@ -147,12 +229,20 @@ a .arena:hover {
   fill: #00a06d;
 }
 
-.github:hover {
-  stroke: #0366d6;
+a .arena:hover {
+  border: 0;
 }
 
 .instagram:hover {
   stroke: #dd2a7b;
+}
+
+.vsco:hover {
+  stroke: #ae995a;
+}
+
+.github:hover {
+  stroke: #0366d6;
 }
 
 .email:hover {
@@ -164,22 +254,32 @@ a .arena:hover {
     font-size: 1em;
     margin: 0;
   }
+
   h5 {
     font-size: 1.5em;
   }
+
   h6 {
     font-size: 1.25em;
   }
+
   .container {
     margin: 2rem;
   }
+
+  .header {
+    margin: 6rem 0 0 2rem;
+  }
+
   .text {
     width: 100%;
   }
+
   .logos {
     width: 84%;
-    margin: 2rem 0 4rem 0;
+    margin: 2rem 0 4rem;
   }
+
   .icon {
     width: 1em;
   }
