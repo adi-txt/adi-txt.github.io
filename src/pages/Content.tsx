@@ -15,7 +15,7 @@ const Content = () => (
     <div className="container">
       <div className="text">
         <Subheader title="presently:" />
-        ad tech software dev &amp; design at&nbsp;
+        software dev &amp; design at&nbsp;
         <Link
           title="kepler"
           className="kepler"
