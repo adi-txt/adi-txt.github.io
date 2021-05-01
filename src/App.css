@@ -192,16 +192,14 @@ a {
 }
 
 .header {
-  padding: 5rem 0 1.5rem;
+  padding: 10vh 0 1.5rem;
 }
 
 .text {
-  width: 72%;
   margin-top: 2rem;
 }
 
 .logos {
-  width: 72%;
   margin: 3rem 0 6rem;
 }
 

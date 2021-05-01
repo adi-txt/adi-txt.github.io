@@ -4,7 +4,7 @@
     "color-no-invalid-hex": true,
     "length-zero-no-unit": true,
     "shorthand-property-no-redundant-values": true,
-    "unit-allowed-list": ["em", "rem", "deg", "%", "s"],
+    "unit-allowed-list": ["em", "rem", "vh", "%", "vw"],
     "declaration-no-important": true,
     "color-hex-case": "lower",
     "number-no-trailing-zeros": true,
